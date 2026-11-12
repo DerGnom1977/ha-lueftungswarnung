@@ -1,6 +1,10 @@
 # Lüftungswarnung
 
+![Lüftungswarnung](https://raw.githubusercontent.com/DerGnom1977/ha-lueftungswarnung/main/images/preview.png)
+
 Lüften nach Raumluft: Taupunkt, absolute Feuchte, Außenluft-Check und Push.
+
+![Dashboard](https://raw.githubusercontent.com/DerGnom1977/ha-lueftungswarnung/main/images/dashboard.jpg)
 
 Python-Integration für Home Assistant (HACS). Sie ersetzt das bisherige YAML-Paket
 `lueftungswarnung/packages/lueftungswarnung.yaml`: Einstellungen sind jetzt eigene Entitäten (Schalter, Zahlen, Auswahlfelder,
