@@ -1,0 +1,51 @@
+# Dashboard für Home Assistant: Einstellungen → Dashboards → Dashboard hinzufügen,
+# dann oben rechts ⋮ → Raw-Konfigurationseditor und diesen Inhalt einfügen.
+title: Lüftungswarnung
+views:
+- title: Lüftungswarnung
+  path: lueftungswarnung
+  icon: mdi:view-dashboard
+  cards:
+  - type: entities
+    title: Räume
+    entities:
+    - sensor.raumluft_wohnzimmer_status
+    - sensor.raumluft_schlafzimmer_status
+    - sensor.raumluft_wohnzimmer_taupunkt
+    - sensor.raumluft_schlafzimmer_taupunkt
+    - sensor.raumluft_aussen_temperatur
+    - sensor.raumluft_aussen_feuchte
+  - type: entities
+    title: Überwachung
+    entities:
+    - switch.lueften_aktiv
+    - switch.lueften_aussen_pruefen
+    - switch.lueften_wohnzimmer_aktiv
+    - switch.lueften_schlafzimmer_aktiv
+    - number.lueften_wohnzimmer_schwelle
+    - number.lueften_schlafzimmer_schwelle
+    - number.lueften_aufschlag_kritisch
+    - number.lueften_hysterese
+    - number.lueften_verzoegerung
+    - number.lueften_intervall
+    - number.lueften_dauer
+    - number.lueften_aussen_marge
+  - type: entities
+    title: Ruhezeit und Pause
+    entities:
+    - switch.lueften_ruhezeit
+    - time.lueften_ruhe_von
+    - time.lueften_ruhe_bis
+    - number.lueften_pause_stunden
+    - button.lueften_pause_wohnzimmer
+    - button.lueften_pause_schlafzimmer
+    - button.lueften_pause_aufheben
+  - type: entities
+    title: Was soll passieren?
+    entities:
+    - switch.lueften_ziel_ha
+    - switch.lueften_ziel_person1
+    - switch.lueften_ziel_person2
+    - switch.lueften_ziel_licht
+    - button.lueften_test
+    - button.lueften_standardwerte

@@ -1,0 +1,15 @@
+{
+  "domain": "lueftungswarnung",
+  "name": "Lüftungswarnung",
+  "codeowners": [
+    "@DerGnom1977"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/DerGnom1977/ha-lueftungswarnung",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/DerGnom1977/ha-lueftungswarnung/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

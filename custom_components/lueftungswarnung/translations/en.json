@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lüftungswarnung",
+        "description": "Lüften nach Raumluft: Taupunkt, absolute Feuchte, Außenluft-Check und Push.",
+        "data": {
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2",
+          "wetter": "Wetter-Entität (Außenluft)",
+          "licht": "Licht zum Blinken",
+          "wohnzimmer_temp": "Wohnzimmer: Temperatursensor",
+          "wohnzimmer_hum": "Wohnzimmer: Feuchtesensor",
+          "schlafzimmer_temp": "Schlafzimmer: Temperatursensor",
+          "schlafzimmer_hum": "Schlafzimmer: Feuchtesensor"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Es ist nur eine Instanz erlaubt."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Lüftungswarnung",
+        "data": {
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2",
+          "wetter": "Wetter-Entität (Außenluft)",
+          "licht": "Licht zum Blinken",
+          "wohnzimmer_temp": "Wohnzimmer: Temperatursensor",
+          "wohnzimmer_hum": "Wohnzimmer: Feuchtesensor",
+          "schlafzimmer_temp": "Schlafzimmer: Temperatursensor",
+          "schlafzimmer_hum": "Schlafzimmer: Feuchtesensor"
+        }
+      }
+    }
+  }
+}
